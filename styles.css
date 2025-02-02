@@ -1,0 +1,103 @@
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(197, 197, 197);
+}
+
+* {
+  cursor: default;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  /* border: 1px solid grey; */
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.greeting {
+  text-align: center;
+  margin: 16px 0 0;
+  font-size: 30px;
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question {
+  margin: 30px 0 0 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.button-section {
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 20px 10px 0;
+}
+
+.label {
+  margin: 0 0 5px 5px;
+}
+
+.input {
+  height: 25px;
+  margin: 0 0 20px;
+  padding: 0 0 0 10px;
+}
+
+.form-button {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.button_type_yes {
+  background-color: rgb(97, 247, 37);
+}
+
+/* 
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
